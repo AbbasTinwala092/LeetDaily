@@ -10,9 +10,7 @@ public:
             for(int j=0; j<nums.size(); j++)
             {
                 
-                if(i==j)
-                    continue;
-                else if(nums[i] > nums[j])
+                if(i!=j && nums[i] > nums[j])
                     counter++;
                     
             }
